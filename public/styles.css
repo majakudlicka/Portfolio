@@ -22,3 +22,11 @@
   flex-direction: column;
   justify-content: space-between;
 }
+
+.about_text {
+  transform: rotate(90deg);
+}
+
+.contact_text {
+  transform: rotate(-90deg);
+}
