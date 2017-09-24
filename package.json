@@ -1,0 +1,26 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio",
+  "main": "index.js",
+  "dependencies": {
+    "hapi": "^16.6.0",
+    "inert": "^4.2.1",
+    "nodemon": "^1.12.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/majakudlicka/Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/majakudlicka/Portfolio/issues"
+  },
+  "homepage": "https://github.com/majakudlicka/Portfolio#readme"
+}
