@@ -4,7 +4,8 @@ span {
 
 body {
   font-family: 'Lato', sans-serif !important;
-  color: #3c3c3e;
+  color: #3c3c3e !important;
+  background-color: #fefefe !important;
 }
 
 .about {
@@ -100,3 +101,5 @@ body {
   margin-bottom: 20px;
   font-weight: 700;
 }
+
+/*#c5ff00;*/
