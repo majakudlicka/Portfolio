@@ -1,3 +1,5 @@
+/*border: 7px solid #c5ff00;*/
+
 span {
   white-space: pre;
 }
@@ -13,6 +15,8 @@ body {
   flex-direction: column;
   justify-content: center;
   font-weight: 900;
+  color: #3c3c3e;
+  text-decoration: none;
 }
 
 .about:hover {
@@ -20,6 +24,8 @@ body {
   flex-direction: column;
   justify-content: space-around;
   font-weight: 900;
+  color: #3c3c3e;
+  text-decoration: none;
 }
 
 .main_page {
@@ -35,6 +41,8 @@ body {
   flex-direction: column;
   justify-content: center;
   font-weight: 900;
+  color: #3c3c3e;
+  text-decoration: none;
 }
 
 .contact:hover {
@@ -42,6 +50,8 @@ body {
   flex-direction: column;
   justify-content: space-around;
   font-weight: 900;
+  color: #3c3c3e;
+  text-decoration: none;
 }
 
 .work_resume {
@@ -71,6 +81,8 @@ body {
   display: flex;
   justify-content: center;
   font-weight: 900;
+  color: #3c3c3e;
+  text-decoration: none;
 }
 
 .work:hover {
@@ -78,6 +90,8 @@ body {
   display: flex;
   justify-content: space-around;
   font-weight: 900;
+  color: #3c3c3e;
+  text-decoration: none;
 }
 
 .portfolio_center {
@@ -101,5 +115,3 @@ body {
   margin-bottom: 20px;
   font-weight: 700;
 }
-
-/*#c5ff00;*/
