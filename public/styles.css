@@ -3,19 +3,22 @@ span {
 }
 
 body {
-  font-family: Futura !important;
+  font-family: 'Lato', sans-serif !important;
+  color: #3c3c3e;
 }
 
 .about {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  font-weight: 900;
 }
 
 .about:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  font-weight: 900;
 }
 
 .main_page {
@@ -30,12 +33,14 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  font-weight: 900;
 }
 
 .contact:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  font-weight: 900;
 }
 
 .work_resume {
@@ -46,10 +51,12 @@ body {
 
 .about_text {
   transform: rotate(90deg);
+  font-weight: 900;
 }
 
 .contact_text {
   transform: rotate(-90deg);
+  font-weight: 900;
 }
 
 .letter {
@@ -62,16 +69,34 @@ body {
   width: 90vw;
   display: flex;
   justify-content: center;
+  font-weight: 900;
 }
 
 .work:hover {
   width: 90vw;
   display: flex;
   justify-content: space-around;
+  font-weight: 900;
 }
 
 .portfolio_center {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-size: 14px;
+  letter-spacing: 0.2em;
+  font-weight: 300;
+}
+
+.margin_bottom_20 {
+  margin-bottom: 20px;
+}
+
+.padding_right_5 {
+  padding-right: 5px;
+}
+
+.my_name {
+  margin-bottom: 20px;
+  font-weight: 700;
 }
