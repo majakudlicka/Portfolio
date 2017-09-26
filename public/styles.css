@@ -1,7 +1,21 @@
+span {
+  white-space: pre;
+}
+
+body {
+  font-family: Futura !important;
+}
+
 .about {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.about:hover {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .main_page {
@@ -9,12 +23,19 @@
   flex-direction: row;
   justify-content: space-between;
   height: 100vh;
+  padding: 2%;
 }
 
 .contact {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.contact:hover {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .work_resume {
@@ -29,4 +50,28 @@
 
 .contact_text {
   transform: rotate(-90deg);
+}
+
+.letter {
+  position: relative;
+  display: inline-block;
+  letter-spacing: normal;
+}
+
+.work {
+  width: 90vw;
+  display: flex;
+  justify-content: center;
+}
+
+.work:hover {
+  width: 90vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+.portfolio_center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
