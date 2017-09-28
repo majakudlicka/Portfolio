@@ -178,3 +178,9 @@ body {
   letter-spacing: 10px;
   padding-top: 20px;
 }
+
+.resume_object {
+  height: 100%;
+  width: 100%;
+  max-width: 1000px;
+}
