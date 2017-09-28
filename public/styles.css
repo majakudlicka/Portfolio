@@ -115,3 +115,41 @@ body {
   margin-bottom: 20px;
   font-weight: 700;
 }
+
+.personal_description {
+  color: #c5ff00;
+  font-size: 4vw;
+  line-height: 1.2em;
+  padding-top: 5vh;
+  padding-left: 5vw !important;
+  padding-right: 5vw;
+  text-transform: uppercase;
+  -ms-transform-origin: top left;
+  -webkit-transform-origin: top left;
+  -moz-transform-origin: top left;
+  transform-origin: top left;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  letter-spacing: 0.4em;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-top: 2vh;
+}
+
+.nav_item {
+  font-weight: 900;
+  color: #3c3c3e;
+  text-decoration: none;
+  transform: rotate(90deg);
+}
+
+.nav_item:hover {
+  font-weight: 900;
+  color: #3c3c3e;
+  text-decoration: none;
+  transform: rotate(90deg);
+}
