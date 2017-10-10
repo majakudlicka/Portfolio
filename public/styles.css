@@ -17,7 +17,10 @@ body {
   text-decoration: none;
 }
 
-.about:hover {
+.about:hover,
+.about:active,
+.about:focus,
+.about:visited {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -43,7 +46,10 @@ body {
   text-decoration: none;
 }
 
-.contact:hover {
+.contact:hover,
+.contact:active,
+.contact:focus,
+.contact:visited {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -83,7 +89,10 @@ body {
   text-decoration: none;
 }
 
-.work:hover {
+.work:hover,
+.work:active,
+.work:focus,
+.work:visited {
   width: 90vw;
   display: flex;
   justify-content: space-around;
@@ -149,7 +158,10 @@ body {
   text-align: center;
 }
 
-.nav_item:hover {
+.nav_item:hover,
+.nav_item:focus,
+.nav_item:active,
+.nav_item:visited {
   font-weight: 900;
   color: #3c3c3e;
   text-decoration: none;
