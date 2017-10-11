@@ -196,3 +196,31 @@ body {
   width: 100%;
   max-width: 1000px;
 }
+
+.rigth_container {
+  height: 100vh;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.left_container {
+  height: 100vh;
+}
+
+.project_description {
+  color: #c5ff00;
+  /*font-size: 3.5vw;
+  line-height: 1.2em;*/
+  padding-top: 5vh;
+  padding-left: 5vw !important;
+  padding-right: 5vw;
+  padding-bottom: 5vh;
+  text-transform: uppercase;
+  -ms-transform-origin: top left;
+  -webkit-transform-origin: top left;
+  -moz-transform-origin: top left;
+  transform-origin: top left;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  letter-spacing: 0.4em;
+}
