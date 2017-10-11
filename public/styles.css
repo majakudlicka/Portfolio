@@ -8,6 +8,18 @@ body {
   background-color: #fefefe !important;
 }
 
+/*@media only screen and (max-width: 769px) {
+  /* For mobile phones: */
+
+/*[class*="col-"] {
+    max-width: 100% !important;
+    -webkit-box-flex: 0 !important;
+    -webkit-flex: 0 0 100% !important;
+    -ms-flex: 0 0 100% !important;
+    flex: 0 0 100% !important;
+  }
+}*/
+
 .about {
   display: flex;
   flex-direction: column;
@@ -201,6 +213,10 @@ body {
   height: 100vh;
   padding-left: 0 !important;
   padding-right: 0 !important;
+  background-image: url("./assets/student_dark copy.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-clip: padding-box;
 }
 
 .left_container {
@@ -223,4 +239,32 @@ body {
   font-family: 'Lato', sans-serif;
   font-weight: 900;
   letter-spacing: 0.4em;
+}
+
+.image_link {
+  margin: auto;
+  color: #c5ff00;
+  font-size: 3.5vw;
+  line-height: 1.2em;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  letter-spacing: 0.4em;
+  text-decoration: none;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.image_link:hover,
+image_link:focus,
+image_link:active {
+  margin: auto;
+  color: #c5ff00;
+  font-size: 3.5vw;
+  line-height: 1.2em;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  letter-spacing: 0.4em;
+  text-decoration: none;
 }
