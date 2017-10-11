@@ -268,3 +268,13 @@ image_link:active {
   letter-spacing: 0.4em;
   text-decoration: none;
 }
+
+.button-link {
+  margin-top: 5%;
+  border-radius: 35px !important;
+  background-color: #adff00 !important;
+  border-color: #adff00 !important;
+  font-family: 'Lato', sans-serif !important;
+  font-weight: 900 !important;
+  letter-spacing: 0.2em !important;
+}
