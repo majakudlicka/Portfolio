@@ -287,6 +287,29 @@ body {
   transform: translate(-50%, -50%);
 }
 
+.nav_item_container {
+  margin: auto;
+  font-weight: 300;
+  text-decoration: none;
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%, -50%);
+}
+
+.nav_item_horizontal {
+  color: #c5ff00;
+  font-family: 'Lato', sans-serif;
+}
+
+.nav_item_horizontal:hover,
+.nav_item_horizontal:focus,
+.nav_item_horizontal:active {
+  color: #c5ff00;
+  font-family: 'Lato', sans-serif;
+  text-decoration: none;
+}
+
 .image_link:hover,
 image_link:focus,
 image_link:active {
