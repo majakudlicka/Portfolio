@@ -329,3 +329,17 @@ image_link:active {
   font-weight: 900 !important;
   letter-spacing: 0.2em !important;
 }
+
+.article_link {
+  color: #c5ff00;
+  font-family: 'Lato', sans-serif;
+  text-decoration: underline;
+}
+
+.article_link:hover,
+.article_link:focus,
+.article_link:active {
+  color: #c5ff00;
+  font-family: 'Lato', sans-serif;
+  text-decoration: underline;
+}
