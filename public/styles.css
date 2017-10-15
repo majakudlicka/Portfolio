@@ -209,7 +209,7 @@ body {
   max-width: 1000px;
 }
 
-.rigth_container {
+.beevr_container {
   height: 100vh;
   padding-left: 0 !important;
   padding-right: 0 !important;
@@ -219,11 +219,23 @@ body {
   background-clip: padding-box;
 }
 
-.rigth_container2 {
+.genie_container {
   height: 100vh;
   padding-left: 0 !important;
   padding-right: 0 !important;
   background-image: url("./assets/james-newcombe-350779 (1).jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-clip: padding-box;
+  background-size: cover;
+  text-align: center;
+}
+
+.nourish_container {
+  height: 100vh;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  background-image: url("./assets/olenka-kotyk-75206 (1).jpg");
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-clip: padding-box;
