@@ -3,9 +3,9 @@ const server = new hapi.Server();
 const inert = require('inert');
 const routes = require('./routes');
 
+//New Hapi server
 server.connection({
-  host: 'localhost',
-  port: 3000,
+  port: process.env.PORT || 3000,
 });
 
 server.register(inert, err => {
